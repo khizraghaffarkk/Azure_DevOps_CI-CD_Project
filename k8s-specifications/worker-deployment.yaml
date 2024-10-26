@@ -15,5 +15,5 @@ spec:
         app: worker
     spec:
       containers:
-      - image: dockersamples/examplevotingapp_worker
+      - image: khizraghaffarCICD/$imageRepository:$tag #e.g khizraghaffarCICD/workerapp:21
         name: worker
