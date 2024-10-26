@@ -91,12 +91,12 @@ To check the status of your application in AKS:
   ```
 
 ### 🤖 Additional Resources
-- Azure DevOps Documentation
+- Azure DevOps Documentation 
 - ArgoCD Documentation
 - Kubernetes Documentation
 
 ### 📢 Note
 **GitOps Benefits:**
 
-GitOps continuously monitors the Azure repository, automatically deploying changes to the Kubernetes cluster.
-**Security:** GitOps `restricts` direct modifications to Kubernetes manifests, offering a reconciliation process to maintain a desired state.
+- GitOps continuously monitors the Azure repository, automatically deploying changes to the Kubernetes cluster.
+- **Security:** GitOps `restricts` direct modifications to Kubernetes manifests, offering a reconciliation process to maintain a desired state.
